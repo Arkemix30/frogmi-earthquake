@@ -46,6 +46,6 @@ class Api::FeaturesController < ApplicationController
 
   def show
     feature = Feature.find(params[:id])
-    render json: feature
+    render json: FeatureDetailDTO.from_entity(feature)
   end
 end

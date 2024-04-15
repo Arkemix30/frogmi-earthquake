@@ -10,7 +10,7 @@ class FeatureDetailDTO
       type: 'feature',
       attributes: {
         external_id: feature.feature_id,
-        mag: feature.mag,
+        mag: feature.mag.to_f,
         place: feature.place,
         time: feature.time,
         url: feature.url,
@@ -19,8 +19,8 @@ class FeatureDetailDTO
         title: feature.title
       },
       coordinates: {
-        longitude: feature.longitude,
-        latitude: feature.latitude
+        longitude: feature.longitude.to_f,
+        latitude: feature.latitude.to_f
       }
     }
   end
