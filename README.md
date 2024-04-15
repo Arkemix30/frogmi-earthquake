@@ -1,7 +1,6 @@
-# Project
+# Frogmi Earthquake
 
-[project.com](https://project.com)
-
+## Backend Project
 ## Install
 
 ### Clone the repository
@@ -114,3 +113,12 @@ Creates a new comment associated with a specific feature.
 
 The required curl tests are on the `curl_test` directory with each example response from the API.
 (More info on the README file)
+
+## Frontend Project (client)
+
+The required frontend client is under the `client` directory. It was built with [React](https://react.dev/) using the following libraries:
+
+- [Vite](https://vitejs.dev/) - is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+- [Tanstack Query](https://tanstack.com/query/latest) - is a data-fetching library, it makes fetching, caching, synchronizing and updating server state in web applications a breeze.
+- [React Router](https://reactrouter.com/en/main) - it enables "client side routing".
+- [Shadcn](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source
