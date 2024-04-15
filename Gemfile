@@ -14,6 +14,9 @@ gem 'puma', '>= 5.0'
 # Use Faraday to make HTTP requests
 gem 'faraday'
 
+# Use pg to connect to postgres
+gem 'pg'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
@@ -45,6 +48,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'dotenv'
 end
 
 group :development do
